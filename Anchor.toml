@@ -1,0 +1,18 @@
+[programs.localnet]
+waggle_staking = "9YsYjZjmxV71wgHAxtYrSoJ7gr4rbJeDmyG4rmj8Y5f"
+
+[programs.devnet]
+waggle_staking = "9YsYjZjmxV71wgHAxtYrSoJ7gr4rbJeDmyG4rmj8Y5f"
+
+[programs.testnet]
+waggle_staking = "9YsYjZjmxV71wgHAxtYrSoJ7gr4rbJeDmyG4rmj8Y5f"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "localnet"
+wallet = "~/.config/solana/id.json"
+
+[scripts]
+test = "mocha -t 1000000 tests/"
